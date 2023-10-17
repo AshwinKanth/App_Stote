@@ -1,0 +1,52 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+}
+
+.heading {
+  font-size: 45px;
+  font-family: 'Bree Serif';
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #7b8794;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+}
+
+.input {
+  height: 35px;
+  width: 270px;
+  /* padding: 10px; */
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+}
+
+.searchIcon {
+  width: 25px;
+}
+
+.tabList-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+}
+
+.appList-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px;
+}
